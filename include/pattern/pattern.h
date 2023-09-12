@@ -8,6 +8,7 @@ void pattern1(int N){
         }
         std::cout<<std::endl;
     }
+    std::cout<<std::endl;
 }
 
 
@@ -18,6 +19,7 @@ void pattern2(int N){
         }
         std::cout<<std::endl;
     }
+    std::cout<<std::endl;
 }
 
 void pattern3(int N){
@@ -27,6 +29,7 @@ void pattern3(int N){
         }
         std::cout<<std::endl;
     }
+    std::cout<<std::endl;
 }
 
 void pattern4(int N){
@@ -36,6 +39,7 @@ void pattern4(int N){
         }
         std::cout<<std::endl;
     }
+    std::cout<<std::endl;
 }
 
 void pattern5(int N){
@@ -45,6 +49,7 @@ void pattern5(int N){
         }
         std::cout<<std::endl;
     }
+    std::cout<<std::endl;
 }
 
 void pattern6(int N){
@@ -54,6 +59,7 @@ void pattern6(int N){
         }
         std::cout<<std::endl;
     }
+    std::cout<<std::endl;
 }
 
 void pattern7(int N){
@@ -66,6 +72,7 @@ void pattern7(int N){
         }
         std::cout<<std::endl;
     }
+    std::cout<<std::endl;
 }
 
 void pattern8(int N){
@@ -78,6 +85,7 @@ void pattern8(int N){
         }
         std::cout<<std::endl;
     }
+    std::cout<<std::endl;
 }
 
 void pattern9(int N){
@@ -101,6 +109,7 @@ void pattern9(int N){
         }
         std::cout<<std::endl;
     }
+    std::cout<<std::endl;
 }
 
 void pattern10(int N){
@@ -114,4 +123,24 @@ void pattern10(int N){
         }
         std::cout<<std::endl;
     }
+    std::cout<<std::endl;
+}
+
+void pattern11(int N){
+    for(int i{0}; i<N; i++){
+
+        int start{0};
+        if(i%2==0){
+            start=0;
+        }else{
+            start=1;
+        }
+
+        for(int j{0}; j<i; j++){
+            std::cout<<start;
+            start=1-start;
+        }
+        std::cout<<std::endl;
+    }
+    std::cout<<std::endl;
 }
