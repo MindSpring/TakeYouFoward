@@ -12,9 +12,9 @@ ASSETS_DIR = assets
 ASSETS_OS_DIR := $(ASSETS_DIR)_os
 INSTALL_DIR := ~/Desktop/$(EXEC)
 
-LIBRARY_DIR = /home/noyel/Dev/GIT/CPP/StaticLibraryTemplate/bin/linux/debug
+#LIBRARY_DIR = /home/noyel/Dev/GIT/CPP/StaticLibraryTemplate/bin/linux/debug
 #LIBRARY_DIR = lib
-LIBRARY_NAME = myLibrary
+#LIBRARY_NAME = myLibrary
 
 # Sources (searches recursively inside the source directory)
 SRC_DIR = src
@@ -22,7 +22,9 @@ SRCS := $(sort $(shell find $(SRC_DIR) -name '*.cpp'))
 
 # Includes
 INCLUDE_DIR = include
-INCLUDES := -I$(INCLUDE_DIR)  -I/home/noyel/Dev/GIT/CPP/StaticLibraryTemplate/include
+INCLUDES := -I$(INCLUDE_DIR)  #-I/home/noyel/Dev/GIT/CPP/StaticLibraryTemplate/include
+INCLUDES += -I$(INCLUDE_DIR)/pattern
+
 
 # C preprocessor settings
 CPPFLAGS = $(INCLUDES) -MMD -MP
@@ -81,8 +83,8 @@ else ifeq ($(OS),macos)
 else ifeq ($(OS),linux)
 	# Linux-specific settings
 	INCLUDES += -I$(LIBRARY_DIR)/include
-	LDFLAGS += -L$(LIBRARY_DIR)
-	LDLIBS += -l$(LIBRARY_NAME)
+	#LDFLAGS += -L$(LIBRARY_DIR)
+	#LDLIBS += -l$(LIBRARY_NAME)
 endif
 
 ################################################################################
