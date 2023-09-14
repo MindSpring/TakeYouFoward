@@ -23,7 +23,7 @@ SRCS := $(sort $(shell find $(SRC_DIR) -name '*.cpp'))
 # Includes
 INCLUDE_DIR = include
 INCLUDES := -I$(INCLUDE_DIR)  #-I/home/noyel/Dev/GIT/CPP/StaticLibraryTemplate/include
-INCLUDES += -I$(INCLUDE_DIR)/pattern
+INCLUDES += -I$(INCLUDE_DIR)/basics/pattern
 
 
 # C preprocessor settings
