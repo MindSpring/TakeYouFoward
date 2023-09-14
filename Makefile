@@ -3,7 +3,7 @@
 ################################################################################
 
 # Executable name
-EXEC = program
+EXEC = TakeYouFoward
 
 # Build, bin, assets, and install directories (bin and build root directories are kept for clean)
 BUILD_DIR_ROOT = build
@@ -24,6 +24,8 @@ SRCS := $(sort $(shell find $(SRC_DIR) -name '*.cpp'))
 INCLUDE_DIR = include
 INCLUDES := -I$(INCLUDE_DIR)  #-I/home/noyel/Dev/GIT/CPP/StaticLibraryTemplate/include
 INCLUDES += -I$(INCLUDE_DIR)/basics/pattern
+INCLUDES += -I$(INCLUDE_DIR)/basics/maths
+INCLUDES += -I$(INCLUDE_DIR)/basics/recursion
 
 
 # C preprocessor settings
@@ -31,7 +33,7 @@ CPPFLAGS = $(INCLUDES) -MMD -MP
 
 # C++ compiler settings
 CXX = g++
-CXXFLAGS = -std=c++20
+CXXFLAGS = -std=c++20 -g
 WARNINGS = -Wall -Wpedantic -Wextra
 
 # Linker flags

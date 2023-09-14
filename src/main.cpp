@@ -1,19 +1,50 @@
 #include <iostream>
 
+//Patterns
 #include "pattern.h"
 
+//Basic Maths
+#include "count_digits.h"
+#include "reverse_number.h"
+#include "palindrome.h"
+#include "armstrong.h"
+#include "all_devisors.h"
+#include "is_prime_number.h"
+
+//Recursion
+#include "recursion_basics.h"
+#include "name_recursion.h"
+#include "factorial_numbers.h"
+#include "reverse_array.h"
 
 int main()
 {
-    pattern11(5);
-    // pattern10(5);
-    // pattern9(5);
-    // pattern8(5);
-    // pattern7(5);
-    // pattern6(5);
-    // pattern5(5);
-    // pattern4(5);
-    // pattern3(5);
-    // pattern2(5);
-    // pattern1(5);
+
+    //===============================
+    // Recursion
+    //===============================
+    isPalindrome();
+    // testReverseArray();
+    // testFactorialNumbers();
+    // testNameRecursion() ;
+    // restRecursive();
+
+    //===============================
+    //Maths
+    //===============================
+    // testIsPrime();
+    // testSumOfAllDivisors();
+    // testIsArmstrong();
+    // testIsPalindrome();
+    // testReverseBits();
+    // testCountDigits();
+
+    //===============================
+    // Basics
+    //===============================
+    //Patterns
+    // testPatterns();
+
+
+    return 0;
 }
