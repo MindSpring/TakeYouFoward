@@ -26,6 +26,8 @@ INCLUDES := -I$(INCLUDE_DIR)  #-I/home/noyel/Dev/GIT/CPP/StaticLibraryTemplate/i
 INCLUDES += -I$(INCLUDE_DIR)/basics/pattern
 INCLUDES += -I$(INCLUDE_DIR)/basics/maths
 INCLUDES += -I$(INCLUDE_DIR)/basics/recursion
+INCLUDES += -I$(INCLUDE_DIR)/basics/hash
+INCLUDES += -I$(INCLUDE_DIR)/sort
 
 
 # C preprocessor settings

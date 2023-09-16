@@ -30,7 +30,8 @@ bool recurse(std::string& s, int start, int end){
 }
 
 void isPalindrome() {
-    std::string s{"ababa"};
+    std::string s;
+    std::cin>>s;//{"ababa"};
     recurse(s,0, static_cast<int>(s.length()-1))?std::cout<<"Palindrome":std::cout<<"Not Palindrome";
     std::cout<<std::endl;
 }

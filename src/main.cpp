@@ -1,4 +1,5 @@
 #include <iostream>
+#include <climits>
 
 //Patterns
 #include "pattern.h"
@@ -16,14 +17,33 @@
 #include "name_recursion.h"
 #include "factorial_numbers.h"
 #include "reverse_array.h"
+#include "frequency_count.h"
+#include "highest_lowest.h"
+
+//Sorting
+#include "selection_sort.h"
+#include "bubble_sort.h"
+#include "insersion_sort.h"
 
 int main()
 {
+    //===============================
+    // Sorting
+    //===============================
+    testInsersionSort();
+    // testBubbleSort();
+    // testSelectionSort();
+
+    //===============================
+    // Hash
+    //===============================
+    // testGetFrequencies();
+    // testFrequencyCount();
 
     //===============================
     // Recursion
     //===============================
-    isPalindrome();
+    //isPalindrome();
     // testReverseArray();
     // testFactorialNumbers();
     // testNameRecursion() ;
