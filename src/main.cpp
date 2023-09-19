@@ -24,13 +24,17 @@
 #include "selection_sort.h"
 #include "bubble_sort.h"
 #include "insersion_sort.h"
+#include "merge_sort.h"
+#include "quick_sort.h"
 
 int main()
 {
     //===============================
     // Sorting
     //===============================
-    testInsersionSort();
+    testQuickSort();
+    // testMergeSort();
+    // testInsersionSort();
     // testBubbleSort();
     // testSelectionSort();
 
