@@ -26,13 +26,25 @@
 #include "insersion_sort.h"
 #include "merge_sort.h"
 #include "quick_sort.h"
+#include "largest_number.h"
+#include "remove_duplicates.h"
+#include "rotate_by_one_position.h"
+#include "rotate_by_k_positions.h"
 
 int main()
 {
     //===============================
+    // Arrays
+    //===============================
+    testRotateArrayByKPositions();
+    // testRotateByOnePosition();
+    // testRemoveDuplicates();
+    //testLargestElement();
+
+    //===============================
     // Sorting
     //===============================
-    testQuickSort();
+    // testQuickSort();
     // testMergeSort();
     // testInsersionSort();
     // testBubbleSort();
