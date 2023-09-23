@@ -29,6 +29,7 @@ INCLUDES += -I$(INCLUDE_DIR)/basics/recursion
 INCLUDES += -I$(INCLUDE_DIR)/basics/hash
 INCLUDES += -I$(INCLUDE_DIR)/sort
 INCLUDES += -I$(INCLUDE_DIR)/arrays/easy
+INCLUDES += -I$(INCLUDE_DIR)/arrays/medium
 
 
 # C preprocessor settings
