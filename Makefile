@@ -30,7 +30,7 @@ INCLUDES += -I$(INCLUDE_DIR)/basics/hash
 INCLUDES += -I$(INCLUDE_DIR)/sort
 INCLUDES += -I$(INCLUDE_DIR)/arrays/easy
 INCLUDES += -I$(INCLUDE_DIR)/arrays/medium
-
+INCLUDES += -I$(INCLUDE_DIR)/search/binary
 
 # C preprocessor settings
 CPPFLAGS = $(INCLUDES) -MMD -MP

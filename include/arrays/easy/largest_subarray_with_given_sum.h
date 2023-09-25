@@ -5,7 +5,7 @@ int largestSubArray(std::vector<int> arr, long long k) {
     std::unordered_map<long long,int> hm;
     long long sum = 0;
     int len = 0;
-    for(int i = 0; i < arr.size();i++){
+    for(int i = 0; i < static_cast<int>(arr.size());i++){
         sum+= arr[i];
 
         if(sum == k){

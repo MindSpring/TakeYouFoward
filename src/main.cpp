@@ -41,13 +41,44 @@
 //Arrays
 //Medium
 #include "two_sum.h"
+#include "sort_zero_one_two.h"
+#include "find_majority_element.h"
+#include "kadance_max_sum_subarray.h"
+#include "max_profit.h"
+#include "rearrange_alternating_array.h"
+#include "leader_element.h"
+#include "zero_matrix.h"
+#include "rotate_marix_90d.h"
+
+//=================================
+// Binary Search
+//=================================
+#include "find_x_in_sorted_array.h"
+#include "lower_bound.h"
+#include "upper_bound.h"
+
 
 int main()
 {
     //===============================
+    // Binary Search
+    //===============================
+    testUpperBound();
+    // testLowerBound();
+    // testFindXinSortedArray();
+
+    //===============================
     // Arrays
     //===============================
-    testRead();
+    //testRotateMatrix();
+    // testZeroMatrix();
+    // testSuperiorElement();
+    // testAlternatingNumbers();
+    // testMaxProfit();
+    // testMaxSumSubArray();
+    // testFindMajorityElement();
+    // testSortOneTwoThree();
+    // testRead();
 
     //-------------------------------
     //EASY
