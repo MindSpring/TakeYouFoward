@@ -56,14 +56,19 @@
 #include "find_x_in_sorted_array.h"
 #include "lower_bound.h"
 #include "upper_bound.h"
-
+#include "insert_position.h"
+#include "floor_ceil.h"
+#include "find_first_and_last_occurence.h"
 
 int main()
 {
     //===============================
     // Binary Search
     //===============================
-    testUpperBound();
+    testFirstAndLastPosition();
+    // testGetFloorAndCeil();
+    // testSearchPosition();
+    // testUpperBound();
     // testLowerBound();
     // testFindXinSortedArray();
 
