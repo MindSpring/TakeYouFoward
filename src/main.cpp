@@ -59,13 +59,15 @@
 #include "insert_position.h"
 #include "floor_ceil.h"
 #include "find_first_and_last_occurence.h"
+#include "count_occurences.h"
 
 int main()
 {
     //===============================
     // Binary Search
     //===============================
-    testFirstAndLastPosition();
+    testCount();
+    // testFirstAndLastPosition();
     // testGetFloorAndCeil();
     // testSearchPosition();
     // testUpperBound();
