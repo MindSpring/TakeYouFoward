@@ -60,13 +60,17 @@
 #include "floor_ceil.h"
 #include "find_first_and_last_occurence.h"
 #include "count_occurences.h"
+#include "search_rotated_array.h"
+#include "find_minimum_in_rotated_array.h"
 
 int main()
 {
     //===============================
     // Binary Search
     //===============================
-    testCount();
+    testFindMinimum();
+    // testSearchRotatedArray();
+    // testCount();
     // testFirstAndLastPosition();
     // testGetFloorAndCeil();
     // testSearchPosition();
