@@ -62,13 +62,20 @@
 #include "count_occurences.h"
 #include "search_rotated_array.h"
 #include "find_minimum_in_rotated_array.h"
+#include "find_min_index_rotated_sorted_array.h"
+#include "find_single_element.h"
+#include "peak.h"
+
 
 int main()
 {
     //===============================
     // Binary Search
     //===============================
-    testFindMinimum();
+    testFindPeakElement();
+    // testSingleNonDuplicate();
+    //testFindKRotation();
+    // testFindMinimum();
     // testSearchRotatedArray();
     // testCount();
     // testFirstAndLastPosition();
