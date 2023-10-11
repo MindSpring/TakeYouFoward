@@ -1,0 +1,38 @@
+#pragma once
+#include <bits/stdc++.h>
+#include "node.h"
+
+bool isSymmetricUtil(Node* root1, Node* root2){
+    if(!root1 && !root2) return root1==root2;
+    return root1->data==root2->data &&
+            isSymmetricUtil(root1->left, root2->right) &&
+            isSymmetricUtil(root1->right, root2->left); 
+}
+
+bool isSymmetric(Node* root){
+    if(!root)return true;
+    return isSymmetricUtil(root->left, root->right);
+}
+
+void testIsSymmetric(){
+    Node* root = new Node(0);
+    Node* one = new Node(1);
+    Node* two = new Node(1);
+    Node* three = new Node(3);
+    Node* four = new Node(4);
+    Node* five = new Node(4);
+    Node* six = new Node(3);
+    Node* seven = new Node(7);
+
+    root->left=one;
+    root->right=two;
+    one->left=three;
+    one->right=four;
+    two->left=five;
+    two->right=six;
+    three->left=seven;
+
+
+     bool b {isSymmetric(root)};
+    std::cout<<"Is Symmetric : " <<  b<<std::endl;
+}

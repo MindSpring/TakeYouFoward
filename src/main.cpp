@@ -67,12 +67,55 @@
 #include "peak.h"
 
 
+//=================================
+// Binary Tree
+//=================================
+#include "create_treee.h"
+#include "traversal.h"
+#include "depth.h"
+#include "balanced_tree.h"
+#include "boundary_traversal.h"
+#include "vertical_order_treaversal.h"
+#include "top_view.h"
+#include "bottom_view.h"
+#include "left_view.h"
+#include "is_symmetric.h"
+
+//Sliding Window
+#include "substring_with_no_duplicates.h"
+#include "subsequances.h"
+#include "sum_of_subsequences.h"
+#include "one_sequence_of_specific_sum.h"
+#include "count_sequences_with_k_sum.h"
+
 int main()
 {
     //===============================
+    // Sliding Window
+    //===============================
+    testCountSequencesWithKSum();
+    // testSequenceWithSpecificSum();
+    // testSubSequencesWithKSum();
+    // testPrintAllSubSequences();
+    // testUniqueSubstring();
+
+    //===============================
+    // Binary Tree
+    //===============================
+    // testIsSymmetric();
+    // testLeftView();
+    // testBottomView();
+    // testTopView();
+    // testVerticalOrderTraverse();
+    // testTraverseBoundary();
+    // testIsBalanced();
+    // testDepth();
+    // testGetTreeTraversal();
+    // testCreateTree();
+    //===============================
     // Binary Search
     //===============================
-    testFindPeakElement();
+    // testFindPeakElement();
     // testSingleNonDuplicate();
     //testFindKRotation();
     // testFindMinimum();
