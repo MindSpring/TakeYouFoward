@@ -80,6 +80,21 @@
 #include "bottom_view.h"
 #include "left_view.h"
 #include "is_symmetric.h"
+#include "in_order_iterative.h"
+#include "pre_order_iterative.h"
+#include "zig_zag_traversal.h"
+
+//=================================
+// Binary Searcg Tree
+//=================================
+#include "ceil.h"
+#include "floor.h"
+#include "delete.h"
+#include "find_kth_largest_node.h"
+#include "find_kth_smallest_node.h"
+#include "floor.h"
+#include "insert.h"
+#include "min.h"
 
 //Sliding Window
 #include "substring_with_no_duplicates.h"
@@ -88,20 +103,61 @@
 #include "one_sequence_of_specific_sum.h"
 #include "count_sequences_with_k_sum.h"
 
+//Graph
+#include "bfs_graph.h"
+#include "dfs_graph.h"
+#include "provinces.h"
+#include "oranges.h"
+#include "cycle_graph.h"
+
+//LinkedList
+#include "doubly_ll.h"
+
 int main()
 {
     //===============================
+    // LInkedList
+    //===============================
+    testDeleteTail();
+    
+    // testDeleteHead();
+    // testConvertArray2DLL();
+
+    //===============================
+    // Graph
+    //===============================
+    // testCycleGraph();
+    // testOrangeRotting();
+    // testNumProvinces();
+    // testDFSGraph();
+    // testBFSGraph();
+
+    //===============================
     // Sliding Window
     //===============================
-    testCountSequencesWithKSum();
+    //testCountSequencesWithKSum();
     // testSequenceWithSpecificSum();
     // testSubSequencesWithKSum();
     // testPrintAllSubSequences();
     // testUniqueSubstring();
 
     //===============================
+    // Binary Search Tree
+    //===============================
+    // testFindCeil();
+    // testFindFloor();
+    // testDeleteNode();
+    // testFindKthLargestNode();
+    // testFindKthSmallestNode();
+    // testInsertNode();
+    // testMinNode();
+
+    //===============================
     // Binary Tree
     //===============================
+    //testZigZagTraversal();
+    // testPreOrderIterative();
+    // testInOrderIterative();
     // testIsSymmetric();
     // testLeftView();
     // testBottomView();
@@ -112,6 +168,7 @@ int main()
     // testDepth();
     // testGetTreeTraversal();
     // testCreateTree();
+    
     //===============================
     // Binary Search
     //===============================

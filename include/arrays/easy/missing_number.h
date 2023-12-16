@@ -14,7 +14,8 @@ int missingNumber(std::vector<int> v, int n){
 
 int missingNumberUsingHashArray(std::vector<int> v, int n){
 
-    int hash[n+1]{0};
+    //int hash[n+1]{0};
+    std::vector<int> hash(n+1, 0);
 
     for(int i{0}; i<n-1; i++){
         hash[v[i]]++;

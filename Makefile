@@ -32,10 +32,15 @@ INCLUDES += -I$(INCLUDE_DIR)/arrays/easy
 INCLUDES += -I$(INCLUDE_DIR)/arrays/medium
 INCLUDES += -I$(INCLUDE_DIR)/search/binary
 INCLUDES += -I$(INCLUDE_DIR)/tree
-INCLUDES += -I$(INCLUDE_DIR)/tree/easy
-INCLUDES += -I$(INCLUDE_DIR)/tree/medium
+INCLUDES += -I$(INCLUDE_DIR)/tree/bt/easy
+INCLUDES += -I$(INCLUDE_DIR)/tree/bt/medium
+INCLUDES += -I$(INCLUDE_DIR)/tree/bst
 INCLUDES += -I$(INCLUDE_DIR)/two_pointers
 INCLUDES += -I$(INCLUDE_DIR)/recursion
+INCLUDES += -I$(INCLUDE_DIR)/graph/basics
+INCLUDES += -I$(INCLUDE_DIR)/graph/easy
+INCLUDES += -I$(INCLUDE_DIR)/linked_lists/basics
+
 
 # C preprocessor settings
 CPPFLAGS = $(INCLUDES) -MMD -MP

@@ -61,8 +61,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/noyel/Dev/CPP/TakeYouFoward/include/basics/hash",
-      "program": "/home/noyel/Dev/CPP/TakeYouFoward/include/basics/hash/build/Debug/outDebug",
+      "cwd": "/home/noyel/Dev/CPP/TakeYouFoward/src",
+      "program": "/home/noyel/Dev/CPP/TakeYouFoward/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
